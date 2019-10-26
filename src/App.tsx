@@ -5,7 +5,7 @@ export const App = () => {
     return (
             <Page name="New page">
                 <Rectangle name="first" style={{ width: 200, height: 100, backgroundColor: '#ff0000' }} />
-                <Rectangle name="second" style={{ width: 200, height: 100, backgroundColor: '#00ff00' }} />
+                <Rectangle name="second" style={{ width: 200, height: 100, backgroundColor: '#00ff00' }} /> {/* comment out */}
                 <Rectangle name="third" style={{ width: 200, height: 100, backgroundColor: '#0000ff' }} />
             </Page>
     );
